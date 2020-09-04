@@ -39,6 +39,19 @@ p.awards {
   padding: 30px;
   background-color:white;
 }
+.button {
+  background-color: #555555; /* Green */
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Adamina';
+}
 
 </style>
 <body class="">
@@ -63,7 +76,7 @@ p.awards {
           <li><a href="./index.html" title="">01 : Home</a></li>
           <li><a href="./about.html" title="">02 : About Me</a></li>
           <li><a href="./works.html" title="">03 : Portfolio</a></li>
-          <li><a href="./contact.html" title="">04 : Contact Me</a></li>
+          
         </ul>
 
 
@@ -98,6 +111,15 @@ p.awards {
 
                   </p>
                   <p class="a" style="font-size: 16px"> Other than computer science, I am extremely passionate about  photography and like to dedicate most of my spare time to learning new techniques and enhancing my editing skills. </p>
+
+                  <p> Email : nida.bandukwala@gmail.com </p>
+
+                      <button class="button" onclick="Github()">Github</button>
+                      <button class="button" onclick="Linkedin()"> Linkedin </button>
+                      <button class="button" onclick="Instagram()"> Instagram </button>
+                      <a class="button" href="Final Resume 2020.pdf"> Resume </a>
+
+    
                   <hr>
                   
                 </div>
@@ -165,7 +187,20 @@ p.awards {
               <h3> The City School </h3>
               <p class="awards" style="font-size: 18px; border-style: inset; border-color: darkcyan; border-width: 20px " ><b> High Achievers Award <br> August - June 2017</b> </p>
 
+                <script>
+function Github() {
+  location.replace("https://github.com/nidabandukwala")
+}
 
+function Linkedin() {
+  location.replace("https://www.linkedin.com/in/nida-abbas-bandukwala/")
+}
+
+function Instagram() {
+  location.replace("https://www.instagram.com/nida.bandukwala/")
+}
+
+</script>
 
 <footer class="footer-container text-center">
        </div>
